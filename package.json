@@ -1,28 +1,16 @@
 {
-  "name": "urfolio",
-  "version": "1.1.0",
-  "private": true,
+  "name": "landing-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "dependencies": {
-    "@vercel/analytics": "^1.1.1",
-    "next": "14.0.4",
-    "next-themes": "^0.2.1",
-    "nextjs-toploader": "^1.6.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^4.12.0"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4",
-    "typescript": "^5"
+    "tailwindcss": "^3.3.5"
   }
 }
